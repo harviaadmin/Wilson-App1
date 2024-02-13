@@ -1,0 +1,61 @@
+.body{
+  padding: 1rem;
+}
+
+.header{
+  padding: 0.75rem;
+  border-bottom: 1px solid #808080b3;
+}
+.heading{
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.addmember{
+  margin-right: 1rem;
+  border-radius: 15px;
+  border: 1px solid #808080ba;
+  font-size: x-small;
+  color: white;
+  padding: 10px;
+  background: #5082dd;
+  cursor: pointer;
+}
+.searchbox{
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  border: 1px solid gray;
+}
+
+.flex-sb-main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.ml-40{
+  margin-left: 29%;
+}
+
+.fb-20{
+  flex-basis: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .flex-sb-main{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: unset;
+  }
+}
+
+

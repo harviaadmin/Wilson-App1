@@ -1,0 +1,45 @@
+.card-header{
+    border: 1px solid #80808078;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #80808033;
+}
+
+.card-body{
+    border: 1px solid #80808078;
+    width: 100%;
+    background-color: rgb(180, 222, 239);
+    box-shadow: 1px 1px 1px 1px #80808033;
+}
+p{
+    font-size: smaller;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-sb-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+.addmember{
+    margin-right: 1rem;
+    border-radius: 15px;
+    border: 1px solid #808080ba;
+    font-size: x-small;
+    color: white;
+    padding: 10px;
+    background: #5082dd;
+    cursor: pointer;
+  }

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  procedure_name: MyText
+  patient: one
+  doctor: one
+  stage_history: 
+
+two:
+  procedure_name: MyText
+  patient: two
+  doctor: two
+  stage_history: 
